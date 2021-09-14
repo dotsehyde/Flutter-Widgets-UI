@@ -7,9 +7,8 @@ const Column = ({
   children,
   vAlign,
   hAlign,
-  bgColor,
-  height,
-  width,
+  bg,
+
   wrap = false,
   //Margin Props
   marginBottom,
@@ -27,9 +26,8 @@ const Column = ({
   return (
     <div
       style={{
-        height: height,
-        width: width,
-        backgroundColor: bgColor,
+   
+        background: bg,
         display: "flex",
         flexDirection: "column",
         flexWrap: wrap ? "wrap" : "nowrap",

@@ -2,8 +2,6 @@ const Row = ({
   children,
   hAlign = "",
   vAlign = "",
-  width = "",
-  height = "",
   bgColor = "",
   wrap = false,
     //Margin Props
@@ -25,8 +23,7 @@ const Row = ({
     <div
       style={{
         background:bg,
-        height: height,
-        width: width,
+    
         backgroundColor: bgColor,
         display: "flex",
         flexDirection: "row",
