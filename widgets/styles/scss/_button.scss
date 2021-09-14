@@ -1,0 +1,70 @@
+$textColor: var(--textColor);
+$hTextColor: var(--hTextColor);
+
+$cursor: var(--cursor);
+//Margin Props
+$marginBottom: var(--marginBottom);
+$marginTop: var(--marginTop);
+$marginRight: var(--marginRight);
+$marginLeft: var(--marginLeft);
+$marginAll: var(--marginAll);
+//Padding Props
+$paddingAll: var(--paddingAll);
+$paddingBottom: var(--paddingBottom);
+$paddingTop: var(--paddingTop);
+$paddingRight: var(--paddingRight);
+$paddingLeft: var(--paddingLeft);
+//Size Props
+$width: var(--width);
+$height: var(--height);
+//Color Prop
+$color: var(--color);
+//BorderRadius Props
+$borderRadius: var(--borderRadius);
+$borderRadiusTL: var(--borderRadiusTL);
+$borderRadiusTR: var(--borderRadiusTR);
+$borderRadiusBR: var(--borderRadiusBR);
+$borderRadiusBL: var(--borderRadiusBL);
+//Shadow Props
+$boxShadow: var(--boxShadow);
+//Border Props
+$border: var(--border);
+$borderBottom: var(--borderBottom);
+$borderTop: var(--borderTop);
+$borderLeft: var(--borderLeft);
+$borderRight: var(--borderRight);
+//Hover
+$hoverBorder: var(--hoverBorder);
+$hoverBorderRadius: var(--hoverBorderRadius);
+$hoverBg: var(--hoverBg);
+
+.button {
+  border-bottom: $borderBottom;
+  border-left: $borderLeft;
+  border-right: $borderRight;
+  border-top: $borderTop;
+  border: $border;
+  box-shadow: $boxShadow;
+  border-radius: $borderRadius;
+  margin: $marginAll;
+  margin-bottom: $marginBottom;
+  margin-top: $marginTop;
+  margin-left: $marginLeft;
+  margin-right: $marginRight;
+  padding: $paddingAll;
+  padding-bottom: $paddingBottom;
+  padding-top: $paddingTop;
+  padding-left: $paddingLeft;
+  padding-right: $paddingRight;
+  background: $color;
+  width: $width;
+  height: $height;
+  cursor: $cursor;
+  color: $textColor;
+  &:hover {
+    color: $hTextColor;
+    background: $hoverBg;
+    border: $hoverBorder;
+    border-radius: $hoverBorderRadius;
+  }
+}
