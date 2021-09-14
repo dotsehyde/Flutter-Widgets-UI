@@ -1,0 +1,12 @@
+$length: var(--length);
+$thickness: var(--thickness);
+$color: var(--color);
+
+@mixin vertical($var) {
+}
+.divider {
+  height: $thickness;
+  width: $length;
+  background: $color;
+  border: none;
+}

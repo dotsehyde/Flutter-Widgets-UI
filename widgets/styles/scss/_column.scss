@@ -1,0 +1,35 @@
+$bg: var(--bg);
+$wrap: var(--wrap);
+$hAlign: var(--hAlign);
+$vAlign: var(--vAlign);
+//Margin Props
+$marginBottom: var(--marginBottom);
+$marginTop: var(--marginTop);
+$marginRight: var(--marginRight);
+$marginLeft: var(--marginLeft);
+$marginAll: var(--marginAll);
+//Padding Props
+$paddingAll: var(--paddingAll);
+$paddingBottom: var(--paddingBottom);
+$paddingTop: var(--paddingTop);
+$paddingRight: var(--paddingRight);
+$paddingLeft: var(--paddingLeft);
+
+.column {
+  background: $bg;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: $wrap;
+  justify-content: $vAlign;
+  align-items: $hAlign;
+  margin: $marginAll;
+  margin-bottom: $marginBottom;
+  margin-top: $marginTop;
+  margin-left: $marginLeft;
+  margin-right: $marginRight;
+  padding: $paddingAll;
+  padding-bottom: $paddingBottom;
+  padding-top: $paddingTop;
+  padding-left: $paddingLeft;
+  padding-right: $paddingRight;
+}
