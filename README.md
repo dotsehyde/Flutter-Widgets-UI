@@ -13,9 +13,9 @@ Flutter Widgets for React JS provides you with flutter UI components, you use in
 First, run the development server:
 
 ```bash
-Add Components to project
-# or
-yarn dev
+Add widgets folder to project<level>
+# and
+import styles/main.css in root/app.js file
 ```
 
 ## Deploy on Vercel
