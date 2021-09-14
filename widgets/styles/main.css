@@ -1,0 +1,65 @@
+.row {
+  background: var(--bg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: var(--wrap);
+      flex-wrap: var(--wrap);
+  -webkit-box-pack: var(--hAlign);
+      -ms-flex-pack: var(--hAlign);
+          justify-content: var(--hAlign);
+  -webkit-box-align: var(--vAlign);
+      -ms-flex-align: var(--vAlign);
+          align-items: var(--vAlign);
+  margin: var(--marginAll);
+  margin-bottom: var(--marginBottom);
+  margin-top: var(--marginTop);
+  margin-left: var(--marginLeft);
+  margin-right: var(--marginRight);
+  padding: var(--paddingAll);
+  padding-bottom: var(--paddingBottom);
+  padding-top: var(--paddingTop);
+  padding-left: var(--paddingLeft);
+  padding-right: var(--paddingRight);
+}
+
+.divider {
+  height: var(--thickness);
+  width: var(--length);
+  background: var(--color);
+  border: none;
+}
+
+.column {
+  background: var(--bg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: var(--wrap);
+      flex-wrap: var(--wrap);
+  -webkit-box-pack: var(--vAlign);
+      -ms-flex-pack: var(--vAlign);
+          justify-content: var(--vAlign);
+  -webkit-box-align: var(--hAlign);
+      -ms-flex-align: var(--hAlign);
+          align-items: var(--hAlign);
+  margin: var(--marginAll);
+  margin-bottom: var(--marginBottom);
+  margin-top: var(--marginTop);
+  margin-left: var(--marginLeft);
+  margin-right: var(--marginRight);
+  padding: var(--paddingAll);
+  padding-bottom: var(--paddingBottom);
+  padding-top: var(--paddingTop);
+  padding-left: var(--paddingLeft);
+  padding-right: var(--paddingRight);
+}
+/*# sourceMappingURL=main.css.map */
